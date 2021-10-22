@@ -1,0 +1,78 @@
+/* seletor universal para retirar margin*/
+* {
+margin:0;
+}
+
+/* agrupando html e body, para agrupar dois elementos, use uma vírgula */
+html, body{
+/* aqui temos uma variável, para as cores com grey, usaremos essa variável */
+--grey: hsl(240, 9%, 89%);
+/* para o black, segue a mesma lógica do grey, uma variável */
+--black: hsl(240, 6%, 13%);
+height: 100%;
+font-family: 'Roboto', 'sans-serif';
+-webkit-font-smoothing:antialiased;
+}
+/*colocando os itens centralizados ao meio */
+body {
+display: grid;
+place-items: center;
+
+}
+main{
+    background-image:url(images/background.svg);
+    width: 375px;
+    height: 812px;
+}
+.container{
+max-width: 250px;
+margin-left:auto;
+margin-right:auto;
+text-align: center;
+color: var(--grey);
+}
+.avatar{
+width: 10rem;
+margin: 11.5rem auto 0;
+position: relative;
+}
+.avatar span {
+position: absolute;
+top: -15px;
+z-index: 1;
+}
+/*pegando a img do 1 nível */
+.avatar > img {
+width: 10rem;
+height: 11.5rem;
+object-fit: cover;
+
+/* criando um poligono*/
+clip-path:polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+h1{
+font-size: 1.5rem;
+color: #fe72a9;
+margin-top: 1.5rem;
+display: flex;
+gap: 0.75rem;
+justify-content: center;
+align-items: center;
+}
+a{
+color:#fe72a9;
+text-decoration: none;
+margin-top: 0.25rem;
+}
+p{
+margin-top: 2rem;
+}
+ul{
+margin-top: 4rem;
+list-style: none;
+padding: 0;
+/* deixando os ícones das redes sociais inline e centralizados*/
+display: flex;
+gap: 0.5rem; 
+justify-content: center; 
+}
