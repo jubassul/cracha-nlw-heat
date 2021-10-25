@@ -18,9 +18,6 @@ function changeSocialMediaLinks() {
 }
 changeSocialMediaLinks()
 
-//getAttribute: através dele pegamos a class que colocamos no html e fazemos com que o alert não mostre o objeto
-//html e sim a classe.
-
 //pegando as informações que estão no github e trazendo para cá
 function getGitHubProfileInfos(){
 //pegando a url users do github através da api 

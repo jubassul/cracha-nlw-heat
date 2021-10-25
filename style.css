@@ -20,9 +20,10 @@ place-items: center;
 
 }
 main{
-    background-image:url(images/background.svg);
-    width: 375px;
-    height: 812px;
+    background:url(images/background.svg) no-repeat center/cover;
+    width: 100vw;
+    height: 100vh;
+    min-height: 812px;
 }
 .container{
 max-width: 250px;
