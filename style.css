@@ -1,3 +1,6 @@
+@media (min-width: 960px){
+    /* responsivo para desktop */
+}
 /* seletor universal para retirar margin*/
 * {
 margin:0;
@@ -23,7 +26,7 @@ main{
     background:url(images/background.svg) no-repeat center/cover;
     width: 100vw;
     height: 100vh;
-    min-height: 812px;
+    min-height: 812px; 
 }
 .container{
 max-width: 250px;
