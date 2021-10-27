@@ -1,11 +1,9 @@
-@media (min-width: 960px){
-    /* responsivo para desktop */
-}
+
+
 /* seletor universal para retirar margin*/
 * {
 margin:0;
 }
-
 /* agrupando html e body, para agrupar dois elementos, use uma vírgula */
 html, body{
 /* aqui temos uma variável, para as cores com grey, usaremos essa variável */
@@ -80,3 +78,20 @@ display: flex;
 gap: 0.5rem; 
 justify-content: center; 
 }
+
+/*@media(min-width: 720px){
+versão tablet 
+
+
+
+}*/
+@media (min-width: 960px){
+ /*versão para desktop */
+ html, body{
+background-color: black;
+}
+main {
+  background:url(images/Desktop.svg) no-repeat center;
+}
+}
+
