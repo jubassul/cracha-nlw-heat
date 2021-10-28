@@ -4,15 +4,31 @@
 * {
 margin:0;
 }
+/* animação para os ícones das redes sociais */
+@keyframes socialUl {
+  0%, 20%, 60%, 100%{
+  -webkit-transform: transalateY(0);
+  transform: translateY(0);
+ }
+ 40% {
+  -webkit-transform: transalateY(-20px);
+  transform: translateY(-20px);
+ }
+ 80% {
+  -webkit-transform: transalateY(-10px);
+  transform: translateY(-10px);
+ }
+}
+
 /* agrupando html e body, para agrupar dois elementos, use uma vírgula */
 html, body{
 /* aqui temos uma variável, para as cores com grey, usaremos essa variável */
 --grey: hsl(240, 9%, 89%);
 /* para o black, segue a mesma lógica do grey, uma variável */
 --black: hsl(240, 6%, 13%);
-height: 100%;
+height: 100%; 
 font-family: 'Roboto', 'sans-serif';
--webkit-font-smoothing:antialiased;
+-webkit-font-smoothing:antialiased; 
 }
 /*colocando os itens centralizados ao meio */
 body {
@@ -79,19 +95,40 @@ gap: 0.5rem;
 justify-content: center; 
 }
 
-/*@media(min-width: 720px){
-versão tablet 
 
 
-
-}*/
 @media (min-width: 960px){
  /*versão para desktop */
  html, body{
 background-color: black;
-}
+} 
 main {
-  background:url(images/Desktop.svg) no-repeat center;
+  background:url(images/Desktop.png) no-repeat center;
+  height: 100px;
+}
+.instagramHover {
+  background-color: blue;
+}
+.instagramHover:hover{
+  animation: socialUl 1s;
 }
 }
-
+.facebookHover {
+  background-color: blue;
+}
+.facebookHover:hover{
+  animation: socialUl 1s;
+}
+.twitterHover{
+  background-color: blue;
+}
+.twitterHover:hover{
+  animation: socialUl 1s;
+}  
+.youtubeHover{
+  background-color: blue;
+}
+.youtubeHover:hover{
+  animation: socialUl 1s;
+}  
+    
