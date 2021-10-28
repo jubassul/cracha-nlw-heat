@@ -11,4 +11,4 @@ Crachá desenvolvido na trilha orgin na NLW heat.
 - <a href= "https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS</a>
 - <a href = "https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JS</a>
 
-## Confira o Projeto <a href= "jubassul.github.io/cracha-nlw-heat/">aqui</a> !
+## Confira o Projeto <a href= "https://jubassul.github.io/cracha-nlw-heat/">aqui</a> !
